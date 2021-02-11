@@ -81,8 +81,7 @@ function hasCertainKey(arr, key) {
     // every 
     return arr.every(function(value) {
         // return 
-        return value[key]
-        // return key in val 
+        return key in value
     })
 }
 
